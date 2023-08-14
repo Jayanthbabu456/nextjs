@@ -1,2 +1,2 @@
-# nextjs
+# nextjs statred
 Learning NextJS 
