@@ -7,10 +7,10 @@ export default function header() {
       </Link>
       <nav>
         <ul className="flex gap-[30px] items-center">
-          <Link href="/">
+          <Link href="/login">
             <li className="text-xl text-white">Login</li>
           </Link>
-          <Link href="/">
+          <Link href="/register">
             <li className="text-xl text-white">Register</li>
           </Link>
         </ul>

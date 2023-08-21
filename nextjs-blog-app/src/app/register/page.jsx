@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Register() {
   return (
     <div className="h-[85vh] flex justify-center items-center">
@@ -27,9 +28,11 @@ export default function Register() {
           placeholder="Enter password"
           className="text-black text-xl  p-3 outline-none border border-[#828282] rounded-md"
         />
-        <button className="border border-[#fff] text-white text-xl px-4 py-2 font-medium rounded-md mt-5 ">
-          Register
-        </button>
+        <Link href="/login">
+          <button className="border border-[#fff] text-white text-xl px-4 py-2 font-medium rounded-md mt-5 ">
+            Register
+          </button>
+        </Link>
       </form>
     </div>
   );
