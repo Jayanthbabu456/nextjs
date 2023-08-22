@@ -1,6 +1,6 @@
 export default function Login() {
   return (
-    <div className="h-[85vh] flex justify-center items-center">
+    <div className="flex justify-center items-center">
       <form className="flex flex-col justify-center items-center">
         <p className="text-center text-3xl pb-7">Login</p>
         <input
